@@ -575,6 +575,7 @@ public class NacosConfigProperties {
 		properties.put(CONFIG_RETRY_TIME, Objects.toString(this.configRetryTime, ""));
 		properties.put(ENABLE_REMOTE_SYNC_CONFIG,
 				Objects.toString(this.enableRemoteSyncConfig, ""));
+		properties.put(CONTEXT_PATH, Objects.toString(this.contextPath, ""));
 		String endpoint = Objects.toString(this.endpoint, "");
 		if (endpoint.contains(":")) {
 			int index = endpoint.indexOf(":");
